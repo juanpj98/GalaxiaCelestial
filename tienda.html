@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="tienda.css">
+    <title>JPJG</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="index.html" class="logo"><i class="fa-solid fa-globe"></i></a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="img/menu.png" class="menu-icono" alt="menu"></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#expedicion">Expediciones</a></li>
+                    <li><a href="#equipo">Equipos</a></li>
+                    <li><a href="#ponencia">Ponencias</a></li>
+
+                </ul>
+            </nav>
+
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <th>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </th>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Pagar</a>
+                     
+
+                            
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <h1>Tienda</h1>
+            <p>"En nuestra tienda, te invitamos a embarcarte en un viaje hacia las estrellas. Ofrecemos equipos de astronomía de alta calidad para que puedas explorar el cielo. Además, te brindamos la oportunidad de vivir aventuras cósmicas con nuestros emocionantes viajes de exploración astronómica. 
+                ¡Únete a nosotros en esta fascinante travesía estelar!"
+            </p>
+            <div class="botons">
+                <a href="#" class="btn-1">Mas informacion</a>
+                <a href="#" class="btn-1">Menu</a>
+            </div>
+            <div class="socials-1">
+                <img src="img/s1.svg" alt="">
+                <img src="img/s2.svg" alt="">
+                <img src="img/s3.svg" alt="">
+            </div>
+            <a href="#">
+                <img class="arrow" src="img/arrow.svg" alt="">
+            </a>
+        </div>
+    </header>
+
+    <section class="producto container" id="expedicion">
+        <div class="producto-1">
+            <h3>Expediciones </h3>
+            <hr>
+            <p>Cada año actualizamos nuestras expedicones </p>
+        </div>
+        <div class="producto-2">
+            <h2>4 <br> viajes <br> al aire libre </h2>
+        </div>
+    </section>
+
+    <section class="platillos container" id="lista">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Noruega: Cabo Norte, Aurora.</h3>
+                        <p class="precio">450€</p>
+                        <img src="img/expedicion1.jpg" alt="">
+                        <p>Fenómeno de luces de colores en el cielo nocturno,
+                             que atrae a visitantes de todo el mundo durante el invierno para presenciar este espectáculo natural asombroso.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Namibia</h3>
+                        <p class="precio">500€</p>
+                        <img src="img/Expedicion2.jpg" alt="">
+                        <p>viajarán a Namibia para fotografiar la Vía Láctea y la luz dorada
+                            junto con impresionantes formaciones rocosas, dunas rojizas enormes, árboles muertos,
+                            una fauna diversa y los Himba.
+
+                            ¡Uno de los cielos más oscuros del planeta!
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Norte de Chile</h3>
+                        <p class="precio">1000€</p>
+                        <img src="img/expedicion3.jpg" alt="">
+                        <p>En Chile la atmósfera es estable y permite ver con claridad el espacio.
+                            Por eso, una organización internacional trabaja en el
+                            Observatorio Las Campanas, en la observación de la estructura química de las estrellas.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Lluvia de estrellas</h3>
+                        <p class="precio">200€</p>
+                        <img src="img/expedicion4.jpg" alt="">
+                        <p> Se trata de momentos en los que la Tierra atraviesa nubes
+                            de partículas especialmente densas,
+                            por lo que se pueden ver espectáculos astronómico de varios meteoros por hora.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+
+
+        </div>
+
+    </section>
+
+    <section class="producto container" id="equipo">
+        <div class="producto-2">
+            <h2>Explora <br> el cosmo <br> desde tu hogar  </h2>
+        </div>
+        <div class="producto-1">
+            <h3>Equipos</h3>
+            <hr>
+            <p>Preparate con Nosotros</p>
+        </div>
+    </section>
+
+    <section class="platillos container" id="lista-2">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">CELESTRON SCTW-102EQ3</h3>
+                        <p class="precio">1250€</p>
+                        <img src="img/telescopio1.jpg" alt="">
+                        <p> 660mm(f/6.47)distancia focal y apertura de 102 mm,
+                            La lente de vidrio óptico totalmente recubierta con revestimientos de alta transmisión crea imágenes impresionantes y protege sus ojos.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">LUXUN 10-30x40 Single-Cylinder HD High-Power Telescope</h3>
+                        <p class="precio">50€</p>
+                        <img src="img/telescopio2.jpg" alt="">
+                        <p class="c2">Diseño telescópico pequeño y exquisito, fácil de transportar.
+                            Reduzca la pérdida de reflejo de la luz, la transmitancia de la luz es del 99% y se mejora la transmitancia de la luz.
+
+                            ¡Uno de los cielos más oscuros del planeta!
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">525X Astronomical Telescope Refractor Monocular Professional </h3>
+                        <p class="precio">200€</p>
+                        <img src="img/telescopio3.jpg" alt="">
+                        <p class="c2">Componentes ópticos de vidrio con revestimientos de alta transmisión para mejorar el brillo y la claridad de la imagen.
+                            Es útil en eventos deportivos, bajo el cielo nocturno.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>10-300X40 Monocular Telescope HD Zoom Pocket Low Night Vision Powerful</h3>
+                        <p class="precio">50€</p>
+                        <img src="img/telescopio4.jpg" alt="">
+                        <p class="c2"> Ajuste de zoom: ajuste de zoom de 10 a 30 veces, ajuste de ejecución.
+                            Máscara para los ojos: puede ser utilizada directamente por el usuario sin que este gire la máscara para los ojos.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+
+
+        </div>
+
+    </section>
+    <!-- Tercera seccion  -->
+    <section class="producto container" id="ponencia">
+        <div class="producto-2">
+            <h2>Inspirate con <br> nuestra galaxia de  <br> conocimientos  </h2>
+        </div>
+        <div class="producto-1">
+            <h3>Ponencias</h3>
+            <hr>
+            <p>Conferencias que iluminan el universo</p>
+        </div>
+    </section>
+
+    <section class="platillos container" id="lista-3">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">En Busca de Otros Mundos Habitables</h3>
+                        <p class="precio">50€</p>
+                        <img src="img/Planetas_habitables.jpg" alt="">
+                        <p>Únete a esta ponencia emocionante que te sumergirá en el fascinante mundo de los exoplanetas. 
+                            Exploraremos la búsqueda de planetas más allá de nuestro sistema solar, con un enfoque especial en aquellos que podrían albergar vida.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">LUXUN 10-30x40 Single-Cylinder HD High-Power Telescope</h3>
+                        <p class="precio">50€</p>
+                        <img src="img/lado_oscuro.jpg" alt="">
+                        <p class="c2"> Sumérgete en las sombras del cosmos con esta ponencia que aborda los misterios de la energía oscura y la materia oscura. 
+                            Exploraremos cómo estos fenómenos desconcertantes afectan la estructura y evolución del universo
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Aventuras Cósmicas: Historias de Viajes Espaciales y Exploración Humana</h3>
+                        <p class="precio">50€</p>
+                        <img src="img/exploracion_humana.jpg" alt="">
+                        <p class="c2">Desde los primeros vuelos espaciales hasta las misiones actuales, 
+                            descubre las historias detrás de los héroes que han llevado la humanidad más allá de la atmósfera terrestre. Una experiencia que te transportará a las estrellas.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>El Sonido del Universo: Ondas Gravitacionales</h3>
+                        <p class="precio">50€</p>
+                        <img src="img/ondas_graviticionales.jpg" alt="">
+                        <p class="c2"> Sumérgete en el intrigante mundo de las ondas gravitacionales, vibraciones cósmicas que revelan eventos violentos en el espacio-tiempo. 
+                            Explora cómo estas ondas están revolucionando nuestra comprensión del universo.
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+
+
+        </div>
+
+    </section>
+    <!-- aqui cierra  -->
+    <section class="producto container">
+
+        <div class="producto-1">
+            <hr>
+            <p>Contactos</p>
+        </div>
+    </section>
+
+    <footer class="footer container">
+
+        <div class="links">
+
+            <div class="link">
+                <h3>Redes</h3>
+                <p>
+                    ¡SIGUENOS EN NUESTRAS REDES!
+                </p>
+                <div class="socials-2">
+                    <img src="img/s1.svg" alt="">
+                    <img src="img/s2.svg" alt="">
+                    <img src="img/s3.svg" alt="">
+
+                </div>
+            </div>
+            <div class="link">
+                <h3>Información</h3>
+                <ul>
+                    <li><a href="#">Aviso Legal</a></li>
+                    <li><a href="#">Política de Privacidad</a></li>
+                    <li><a href="#">Política de cookies</a></li>
+                    <li><a href="#">Envíos y Devoluviones</a></li>
+                    <li><a href="#">Mapa del sitio</a></li>
+                </ul>
+            </div>
+    
+            <div class="link">
+                <h3>Empresa</h3>
+                <ul>
+                    <li><a href="#">Terminos y condiciones</a></li>
+                    <li><a href="#">Protección de datos</a></li>
+                    <li><a href="#">Pago seguro</a></li>
+                    <li><a href="#">Formas de entrega</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+    
+            <div class="link">
+                <h3></h3>
+                <form>
+                    <input type="text" placeholder="Nombre" class="inp">
+                    <input type="email" placeholder="Email" class="inp">
+                    <textarea name="inp" class="inp"></textarea>
+                    <input class="btn-4" type="submit" value="Enviar">
+    
+    
+                </form>
+            </div>
+        </div>
+    
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/0085d7d60f.js" crossorigin="anonymous"></script>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
